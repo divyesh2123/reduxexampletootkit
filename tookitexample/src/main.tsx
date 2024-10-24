@@ -7,12 +7,13 @@ import store from './store/store.ts'
 import Counter from './Counter.tsx'
 import UserInfo from './UserInfo.tsx'
 import ToDoList from './ToDoList.tsx'
+import Comments from './Comments.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider store={store}>
 
   
-    <ToDoList />
+    <Comments />
     </Provider>
   </StrictMode>,
 )
