@@ -28,8 +28,7 @@ const commentsslice = createSlice({
   name: 'comments',
   initialState,
   reducers: {
-
-    CommentsRequest : (state: ICommentsReducer)=>{
+ CommentsRequest : (state: ICommentsReducer)=>{
 
         state.isLoading = true;
    },
